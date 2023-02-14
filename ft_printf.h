@@ -6,7 +6,7 @@
 /*   By: herbie <herbie@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 21:47:58 by herbie            #+#    #+#             */
-/*   Updated: 2023/02/14 20:46:26 by herbie           ###   ########.fr       */
+/*   Updated: 2023/02/14 20:54:07 by herbie           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 # include <limits.h>
 
 # ifndef __MACH__
-#  define __MACH__ 1
+#  define __MACH__ 0
 # endif /* __MACH__ */
 
 int		ft_printf(const char *format, ...);
